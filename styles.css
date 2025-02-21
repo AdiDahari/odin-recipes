@@ -1,0 +1,79 @@
+h1 {
+  text-align: center;
+  background-color: lightgreen;
+  margin-inline: 20%;
+  padding-block: 5px;
+  border-radius: 20px;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+ul {
+  margin-inline: 40px;
+}
+
+ol {
+  margin-inline: 40px;
+}
+
+li {
+  margin-block: 12px;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  list-style-type: circle;
+}
+a:hover {
+  color: orange;
+}
+
+h2 {
+  width: fit-content;
+  background-color: lightsalmon;
+  padding-block: 5px;
+  padding-inline: 10px;
+  border-radius: 20px;
+  font-size: 20px;
+  font-style: italic;
+}
+.img-container {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+img {
+  border-radius: 12px;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+hr {
+  border-top: 2px dashed gray;
+}
+
+li li {
+  margin-block: 6px;
+}
+
+.nav {
+  list-style-type: none;
+}
+
+.nav li {
+  display: inline;
+  margin-inline: 8px;
+}
+
+.nav li a {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+  color: green;
+}
+
+p {
+  font-size: 18px;
+  padding-inline-start: 40px;
+}
